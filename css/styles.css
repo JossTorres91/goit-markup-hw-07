@@ -81,7 +81,7 @@ address p,
 .webs,
 .servicebtn:hover,
 .servicebtn:focus {
-    color: #2196F3;
+    color: hsl(207, 90%, 54%);
     fill: #2196F3;
 }
 

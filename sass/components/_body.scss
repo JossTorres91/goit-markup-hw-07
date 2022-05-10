@@ -1,0 +1,10 @@
+@import'../utils/variables.scss';
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 1600px;
+    color: map-get($colores,'textooscuro');
+    font-family: map-get($fuentes,'roboto');
+}

@@ -1,0 +1,27 @@
+@import'../utils/variables.scss';
+.encabezado{
+    &__iconoemail{
+        width: 16px;
+        height: 12px;
+        margin-right: 10px;
+    }
+    &__iconotelefono{
+        width: 10px;
+        height: 16px;
+        margin-right: 10px;
+    }
+}
+.encuentrenos{
+    &__instagram,&__twitter,&__facebook,&__linkedin{
+        width: 20px;
+        height: 20px;
+        fill:map-get($colores,'blanco' );
+    }
+}
+.btn-suscripcion{
+    &__icono{
+        width: 24px;
+        height: 24px;
+        fill: map-get($colores,'blanco' );
+    }
+}
